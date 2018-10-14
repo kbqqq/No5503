@@ -1,0 +1,13 @@
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+	<bean id="ManagerLoginAction" class="cn.edu.hbuas.audiocms.actions.ManagerLoginAction"/>
+	<bean id="ManagerAction" class="cn.edu.hbuas.audiocms.actions.ManagerAction"/>
+	<bean id="CategoryAction" class="cn.edu.hbuas.audiocms.actions.CategoryAction"/>
+	<bean id="NewsAction" class="cn.edu.hbuas.audiocms.actions.NewsAction"/>
+	<bean id="UploadJSONAction" class="cn.edu.hbuas.audiocms.actions.UploadJSONAction"/>
+	<bean id="IndexAction" class="cn.edu.hbuas.audiocms.actions.IndexAction"/>
+	<bean id="NewsSearchAction" class="cn.edu.hbuas.audiocms.actions.NewsSearchAction"/>
+</beans>
